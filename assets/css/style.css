@@ -50,7 +50,8 @@ body {
 .gameCard {
     height: 29.629629629629626%;
     width: 100vw;
-    background-color: green;
+    background-image: url(https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/multiusebackgrounds/common/bf-2042-section-bg-cloud-1-xl.jpg.adapt.320w.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +62,52 @@ body {
     width: 20.833333333333336%;
     background-color: brown;
     margin: 1px;
+    display: flex;
+    flex-direction: column;
+    color: #26FFDF;
+    
 }
+
+.firstCard {
+    background-image: url(../img/ruée32.jpg);
+    background-size: cover;
+}
+
+.secondCard {
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+}
+
+.thirdCard {
+    background-image: url(../img/RUSH.jpg);
+    background-size: cover;
+}
+
+.fourthCard {
+    background-image: url(../img/Patch.png);
+    background-size: cover;
+}
+
+
+.cardTitle {
+    padding-left: 1rem;
+    margin-top: 8rem;
+    font-size: 1.5em;
+}
+
+.cardContent {
+    font-size: 2em;
+    padding-left: 1rem;
+}
+.cardContent2 {
+    font-size: 1.4em;
+    margin-top: 0.4em;
+    padding-left: 1rem;
+}
+
+
+
+/* ------------------Footer------------------- */
 
 .footer {
     height: 5.555555555555555%;
