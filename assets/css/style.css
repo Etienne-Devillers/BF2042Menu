@@ -14,29 +14,48 @@ body {
 .videoBackground {
     height: 64.81481481481481%;
     width: 100vw;
-    background-color: aqua;
+    
     position: relative;
 }
 
 .gameModContainer {
     height: 42.857142857142854%;
     width: 100vw;
-    background-color: gray;
+
     position: absolute;
     bottom: 0;
     display: flex;
 }
 
+.gif {
+    height: 70vh;
+    width: 100vw;
+    top: -25.5em;
+    position: absolute;
+    z-index: -50;
+    opacity: 0;
+    
+}
+
+
+
 .gameMod {
     height: 100%;
     width: 33.33333333333333%;
-    background-color: #16191D;
+    background-color: #16191d;
     border: solid 1px #0C0D0C;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative
+    position: relative;
+    opacity: 1;
+    z-index: 10;
+    opacity: 0.5;
+}
+
+.gameMod:hover {
+    opacity: 1;
 }
 
 .gameMod:hover .gameModImg {
@@ -45,6 +64,18 @@ body {
 
 .gameMod:hover .gameModImgHz {
     transform: translateY(-4em);
+}
+
+.gifWarfare {
+    opacity: 1;
+}
+
+.Hz:hover ~ .gifHz {
+    opacity: 1;
+}
+
+.Portal:hover ~ .gifPortal {
+    opacity: 1;
 }
 
 .gameModImg {
@@ -114,7 +145,7 @@ body {
     cursor: pointer;
 }
 
-.gameMod:hover>img {
+.gameMod:hover>.img {
     filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(103deg) brightness(0%) contrast(100%);
 }
 
