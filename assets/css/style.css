@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.videoBackground {
+    height: 64.81481481481481%;
+    width: 100vw;
+    background-color: aqua;
+    position: relative;
+}
+
+.gameModContainer {
+    height: 42.857142857142854%;
+    width: 100vw;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.gameMod {
+    height: 100%;
+    width: 33.33333333333333%;
+    background-color: blueviolet;
+    border: solid 1px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameModImg {
+    height: 25.666666666666664%;
+    width: 40.625%;
+}
+
+.gameModImgHz{
+    height: 45.666666666666664%;
+}
+
+
+.gameCard {
+    height: 29.629629629629626%;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameCardChoice {
+    height: 75.125%;
+    width: 20.833333333333336% ;
+    background-color: brown;
+    margin: 1px;
+}
+.footer {
+    height: 5.555555555555555%;
+    width: 100vw;
+    background-color: #000000;
+}
+
+.
