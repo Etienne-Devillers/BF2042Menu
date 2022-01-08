@@ -103,22 +103,23 @@ body {
 
 .cardTitle {
     padding-left: 1rem;
-    margin-top: 8rem;
     font-size: 1.5em;
-    position: relative;
+    position: absolute;
+    bottom: 2.2em;
 }
 
 .cardContent {
     font-size: 2em;
     padding-left: 1rem;
-    position: relative;
+    position: absolute;
+    bottom: 0.5em;
 }
 
 .cardContent2 {
-    font-size: 1.4em;
-    margin-top: 0.4em;
+    font-size: 1.3em;
     padding-left: 1rem;
-    position: relative;
+    position: absolute;
+    bottom: 1em;
 }
 
 
