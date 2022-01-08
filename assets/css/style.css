@@ -47,6 +47,9 @@ body {
 }
 
 
+
+/* ------------------------Section gameCard --------------- */
+
 .gameCard {
     height: 29.629629629629626%;
     width: 100vw;
@@ -88,11 +91,14 @@ body {
     position: absolute;
 }
 
-.gradiant:hover {
+.gameCardChoice:hover>.gradiant {
     background: rgb(38, 255, 223);
     background: linear-gradient(0deg, rgba(38, 255, 223, 1) 5%, rgba(38, 255, 223, 0) 5%, rgba(38, 255, 223, 0.5634628851540616) 5%, rgba(38, 255, 223, 0.22452731092436973) 30%, rgba(38, 255, 223, 0) 40%);
 cursor: pointer;
 
+}
+.gameCardChoice:hover {
+    cursor: pointer;
 }
 
 .firstCard {
