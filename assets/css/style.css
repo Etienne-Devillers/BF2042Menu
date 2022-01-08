@@ -79,41 +79,50 @@ body {
     align-items: center;
     font-size: 1.5em;
 }
+.footerElements:hover {
+background-color: #1D2425;
+cursor: pointer;
+}
+
 
 #footerElement1 {
     width: 8.072916666666668%;
     height: 100%;
-    border-right: solid 1px grey;
+    border-right: solid 1px #202727;
 }
 
 #footerElement2 {
     width: 18.229166666666664%;
     height: 100%;
-    border-right: solid 1px grey;
+    border-right: solid 1px #202727;
 }
 
 #footerElement3 {
     width: 49.635416666666664%;
     height: 100%;
-    border-right: solid 1px grey;
+    border-right: solid 1px #202727;
 }
+#footerElement3:hover {
+    background-color: #000000;
+    }
+
 
 #footerElement4 {
     width: 7.083333333333333%;
     height: 100%;
-    border-right: solid 1px grey;
+    border-right: solid 1px #202727;
 }
 
 #footerElement5 {
     width: 10.729166666666666%;
     height: 100%;
-    border-right: solid 1px grey;
+    border-right: solid 1px #202727;
 }
 
 #footerElement6 {
     width: 3.125%;
     height: 100%;
-    border-right: solid 1px grey;
+    border-right: solid 1px #202727;
     background-color: #001716;
     background-image: url(../img/footer-frostbite.png);
     background-position: 40% 0%;
@@ -128,7 +137,7 @@ body {
 #footerElement7 {
     width: 3.125%;
     height: 100%;
-    border-right: solid 1px grey;
+    border-right: solid 1px #202727;
     color: black;
     background: rgb(218, 184, 180);
     background: linear-gradient(100deg, rgba(218, 184, 180, 1) 0%, rgba(218, 184, 180, 1) 49%, rgba(186, 128, 124, 1) 50%, rgba(255,215,210,0.9948354341736695) 100%);
